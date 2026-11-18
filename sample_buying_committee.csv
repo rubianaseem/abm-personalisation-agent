@@ -1,0 +1,28 @@
+# SYNTHETIC DATA. Fictional people on .example domains. Not real contacts.
+contact_id,email,first_name,last_name,job_title,company_domain,email_opt_out,hard_bounced,lawful_basis,notes
+C001,priya.shah@brightwave.example,Priya,Shah,Head of Revenue,brightwave.example,,,legitimate_interest,
+C002,tom.reed@brightwave.example,Tom,Reed,Marketing Operations Manager,brightwave.example,no,,legitimate_interest,
+C003,Tom.Reed@Brightwave.example,Tom,Reed,Marketing Ops Manager,brightwave.example,Yes,,legitimate_interest,duplicate created by form
+C004,ana.costa@brightwave.example,Ana,Costa,VP Sales,brightwave.example,,,legitimate interest,
+C005,jo.lim@brightwave.example,Jo,Lim,Data Engineer,brightwave.example,,,legitimate_interest,
+C006,sam.okafor@brightwave.example,Sam,Okafor,SDR Team Lead,brightwave.example,,,consent,
+C007,lars.devries@northpeak.example,Lars,de Vries,RevOps Lead,northpeak.example,,,legitimate_interest,
+C008,eva.jansen@northpeak.example,Eva,Jansen,CMO,northpeak.example,,,consent,
+C009,pieter.bakker@northpeak.example,Pieter,Bakker,Marketing Manager,northpeak.example,,,,
+C010,aoife.byrne@corvid.example,Aoife,Byrne,Sales Operations Manager,corvid.example,,,legitimate_interest,Said on call: please remove me from marketing emails
+C011,ciaran.walsh@corvid.example,Ciaran,Walsh,Growth Hacker,corvid.example,,,legitimate_interest,
+C012,niamh.kelly@gmail.com,Niamh,Kelly,Head of Marketing,corvid.example,,,consent,
+C013,declan.ryan@corvid.example,Declan,Ryan,Revenue Operations Manager,corvid.example,,,legitimate_interest,
+C014,grace.hall@halcyon.example,Grace,Hall,Marketing Manager,halcyon.example,,,consent,
+C015,dan.ferris@ferrous.example,Dan,Ferris,VP Marketing,ferrous.example,,,legitimate_interest,
+C016,helen.moss@meridianhealth.example,Helen,Moss,RevOps Manager,meridianhealth.example,,,legitimate_interest,
+C017,raj.iyer@meridianlabs.example,Raj,Iyer,Marketing Operations Lead,meridianlabs.example,,,legitimate_interest,
+C018,ben.carter@quillstone.example,Ben,Carter,Head of Sales,quillstone.example,,,legitimate_interest,
+C019,sophie.martin@lumiere.example,Sophie,Martin,Revenue Operations Manager,lumiere.example,,,legitimate_interest,
+C020,leo.brooks@lumiere.example,Leo,Brooks,VP Revenue,lumiere.example,,TRUE,legitimate_interest,
+C021,mia.clarke@lumiere-mail.example,Mia,Clarke,CMO,lumiere.example,,,legitimate_interest,
+C022,jonas.weber@saltmarsh.example,Jonas,Weber,CRM Manager,saltmarsh.example,,,consent,
+C023,lena.fischer@saltmarsh.example,Lena,Fischer,VP Revenue,saltmarsh.example,,,legitimate_interest,
+C024,kai@,Kai,,Sales Operations Analyst,saltmarsh.example,,,legitimate_interest,
+C025,olu.ade@unknownco.example,Olu,Ade,RevOps Lead,unknownco.example,,,legitimate_interest,
+C026,ruth.price@pinecrest.example,Ruth,Price,Marketing Operations Manager,pinecrest.example,,,legitimate_interest,

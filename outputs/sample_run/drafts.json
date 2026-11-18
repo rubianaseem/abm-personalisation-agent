@@ -1,0 +1,688 @@
+[
+  {
+    "account_domain": "brightwave.example",
+    "asset": "email",
+    "contact_id": "C004",
+    "draft_id": "email:brightwave.example:C004",
+    "persona": "economic_buyer",
+    "personalisation": "account_signal",
+    "sentences": [
+      {
+        "cites": [],
+        "kind": "greeting",
+        "text": "Hi Ana,"
+      },
+      {
+        "cites": [
+          "E3"
+        ],
+        "kind": "claim",
+        "text": "Congratulations to the Brightwave Analytics team on the Series B (GBP 30M)."
+      },
+      {
+        "cites": [
+          "C2"
+        ],
+        "kind": "claim",
+        "text": "Lumen Pipeline shows which signal moved each account into a sales queue."
+      },
+      {
+        "cites": [],
+        "kind": "cta",
+        "text": "We are running a 30-minute working session on this next month. Want an invite? https://lumenpipeline.example/webinar"
+      },
+      {
+        "cites": [],
+        "kind": "signoff",
+        "text": "Alex, Lumen Pipeline"
+      }
+    ],
+    "source": "template",
+    "stage": "aware",
+    "subject": "Brightwave Analytics: pipeline visibility",
+    "tier": "TIER_1",
+    "validation": {
+      "errors": [],
+      "model_errors": [],
+      "warnings": []
+    }
+  },
+  {
+    "account_domain": "corvid.example",
+    "asset": "email",
+    "contact_id": "C013",
+    "draft_id": "email:corvid.example:C013",
+    "persona": "champion",
+    "personalisation": "account_signal",
+    "sentences": [
+      {
+        "cites": [],
+        "kind": "greeting",
+        "text": "Hi Declan,"
+      },
+      {
+        "cites": [
+          "E1"
+        ],
+        "kind": "claim",
+        "text": "I saw Corvid Labs is hiring for a Sales Operations Analyst role."
+      },
+      {
+        "cites": [
+          "C1"
+        ],
+        "kind": "claim",
+        "text": "Lumen Pipeline flags duplicate and stale CRM records before they reach routing."
+      },
+      {
+        "cites": [],
+        "kind": "cta",
+        "text": "Would a short guide on how other ops teams handle this be useful? https://lumenpipeline.example/guide"
+      },
+      {
+        "cites": [],
+        "kind": "signoff",
+        "text": "Alex, Lumen Pipeline"
+      }
+    ],
+    "source": "template",
+    "stage": "unaware",
+    "subject": "Corvid Labs: routing data quality",
+    "tier": "TIER_2",
+    "validation": {
+      "errors": [],
+      "model_errors": [],
+      "warnings": []
+    }
+  },
+  {
+    "account_domain": "northpeak.example",
+    "asset": "email",
+    "contact_id": "C008",
+    "draft_id": "email:northpeak.example:C008",
+    "persona": "economic_buyer",
+    "personalisation": "account_signal",
+    "sentences": [
+      {
+        "cites": [],
+        "kind": "greeting",
+        "text": "Hi Eva,"
+      },
+      {
+        "cites": [
+          "E2"
+        ],
+        "kind": "claim",
+        "text": "I noticed Northpeak Systems recently moved to HubSpot Sales Hub."
+      },
+      {
+        "cites": [
+          "C2"
+        ],
+        "kind": "claim",
+        "text": "Lumen Pipeline shows which signal moved each account into a sales queue."
+      },
+      {
+        "cites": [],
+        "kind": "cta",
+        "text": "Worth a 20-minute call to compare notes on your current setup? https://lumenpipeline.example/demo"
+      },
+      {
+        "cites": [],
+        "kind": "signoff",
+        "text": "Alex, Lumen Pipeline"
+      }
+    ],
+    "source": "template",
+    "stage": "engaged",
+    "subject": "Northpeak Systems: pipeline visibility",
+    "tier": "TIER_2",
+    "validation": {
+      "errors": [],
+      "model_errors": [],
+      "warnings": []
+    }
+  },
+  {
+    "account_domain": "brightwave.example",
+    "asset": "email",
+    "contact_id": "C005",
+    "draft_id": "email:brightwave.example:C005",
+    "persona": "technical",
+    "personalisation": "account_signal",
+    "sentences": [
+      {
+        "cites": [],
+        "kind": "greeting",
+        "text": "Hi Jo,"
+      },
+      {
+        "cites": [
+          "E1"
+        ],
+        "kind": "claim",
+        "text": "I saw Brightwave Analytics is hiring for a Revenue Operations Manager role."
+      },
+      {
+        "cites": [
+          "C4"
+        ],
+        "kind": "claim",
+        "text": "Lumen Pipeline connects to HubSpot and Salesforce through their standard APIs."
+      },
+      {
+        "cites": [],
+        "kind": "cta",
+        "text": "We are running a 30-minute working session on this next month. Want an invite? https://lumenpipeline.example/webinar"
+      },
+      {
+        "cites": [],
+        "kind": "signoff",
+        "text": "Alex, Lumen Pipeline"
+      }
+    ],
+    "source": "template",
+    "stage": "aware",
+    "subject": "Brightwave Analytics: CRM integration checks",
+    "tier": "TIER_1",
+    "validation": {
+      "errors": [],
+      "model_errors": [],
+      "warnings": []
+    }
+  },
+  {
+    "account_domain": "saltmarsh.example",
+    "asset": "email",
+    "contact_id": "C022",
+    "draft_id": "email:saltmarsh.example:C022",
+    "persona": "champion",
+    "personalisation": "account_signal",
+    "sentences": [
+      {
+        "cites": [],
+        "kind": "greeting",
+        "text": "Hi Jonas,"
+      },
+      {
+        "cites": [
+          "E2"
+        ],
+        "kind": "claim",
+        "text": "I saw Saltmarsh Cloud is hiring for a CRM Manager role."
+      },
+      {
+        "cites": [
+          "C1"
+        ],
+        "kind": "claim",
+        "text": "Lumen Pipeline flags duplicate and stale CRM records before they reach routing."
+      },
+      {
+        "cites": [],
+        "kind": "cta",
+        "text": "Worth a 20-minute call to compare notes on your current setup? https://lumenpipeline.example/demo"
+      },
+      {
+        "cites": [],
+        "kind": "signoff",
+        "text": "Alex, Lumen Pipeline"
+      }
+    ],
+    "source": "template",
+    "stage": "engaged",
+    "subject": "Saltmarsh Cloud: routing data quality",
+    "tier": "TIER_1",
+    "validation": {
+      "errors": [],
+      "model_errors": [],
+      "warnings": []
+    }
+  },
+  {
+    "account_domain": "northpeak.example",
+    "asset": "email",
+    "contact_id": "C007",
+    "draft_id": "email:northpeak.example:C007",
+    "persona": "champion",
+    "personalisation": "account_signal",
+    "sentences": [
+      {
+        "cites": [],
+        "kind": "greeting",
+        "text": "Hi Lars,"
+      },
+      {
+        "cites": [
+          "E2"
+        ],
+        "kind": "claim",
+        "text": "I noticed Northpeak Systems recently moved to HubSpot Sales Hub."
+      },
+      {
+        "cites": [
+          "C1"
+        ],
+        "kind": "claim",
+        "text": "Lumen Pipeline flags duplicate and stale CRM records before they reach routing."
+      },
+      {
+        "cites": [],
+        "kind": "cta",
+        "text": "Worth a 20-minute call to compare notes on your current setup? https://lumenpipeline.example/demo"
+      },
+      {
+        "cites": [],
+        "kind": "signoff",
+        "text": "Alex, Lumen Pipeline"
+      }
+    ],
+    "source": "template",
+    "stage": "engaged",
+    "subject": "Northpeak Systems: routing data quality",
+    "tier": "TIER_2",
+    "validation": {
+      "errors": [],
+      "model_errors": [],
+      "warnings": []
+    }
+  },
+  {
+    "account_domain": "saltmarsh.example",
+    "asset": "email",
+    "contact_id": "C023",
+    "draft_id": "email:saltmarsh.example:C023",
+    "persona": "economic_buyer",
+    "personalisation": "account_signal",
+    "sentences": [
+      {
+        "cites": [],
+        "kind": "greeting",
+        "text": "Hi Lena,"
+      },
+      {
+        "cites": [
+          "E3"
+        ],
+        "kind": "claim",
+        "text": "Congratulations to the Saltmarsh Cloud team on the Series C (USD 45M)."
+      },
+      {
+        "cites": [
+          "C2"
+        ],
+        "kind": "claim",
+        "text": "Lumen Pipeline shows which signal moved each account into a sales queue."
+      },
+      {
+        "cites": [],
+        "kind": "cta",
+        "text": "Worth a 20-minute call to compare notes on your current setup? https://lumenpipeline.example/demo"
+      },
+      {
+        "cites": [],
+        "kind": "signoff",
+        "text": "Alex, Lumen Pipeline"
+      }
+    ],
+    "source": "template",
+    "stage": "engaged",
+    "subject": "Saltmarsh Cloud: pipeline visibility",
+    "tier": "TIER_1",
+    "validation": {
+      "errors": [],
+      "model_errors": [],
+      "warnings": []
+    }
+  },
+  {
+    "account_domain": "brightwave.example",
+    "asset": "email",
+    "contact_id": "C001",
+    "draft_id": "email:brightwave.example:C001",
+    "persona": "economic_buyer",
+    "personalisation": "account_signal",
+    "sentences": [
+      {
+        "cites": [],
+        "kind": "greeting",
+        "text": "Hi Priya,"
+      },
+      {
+        "cites": [
+          "E3"
+        ],
+        "kind": "claim",
+        "text": "Congratulations to the Brightwave Analytics team on the Series B (GBP 30M)."
+      },
+      {
+        "cites": [
+          "C2"
+        ],
+        "kind": "claim",
+        "text": "Lumen Pipeline shows which signal moved each account into a sales queue."
+      },
+      {
+        "cites": [],
+        "kind": "cta",
+        "text": "We are running a 30-minute working session on this next month. Want an invite? https://lumenpipeline.example/webinar"
+      },
+      {
+        "cites": [],
+        "kind": "signoff",
+        "text": "Alex, Lumen Pipeline"
+      }
+    ],
+    "source": "template",
+    "stage": "aware",
+    "subject": "Brightwave Analytics: pipeline visibility",
+    "tier": "TIER_1",
+    "validation": {
+      "errors": [],
+      "model_errors": [],
+      "warnings": []
+    }
+  },
+  {
+    "account_domain": "lumiere.example",
+    "asset": "email",
+    "contact_id": "C019",
+    "draft_id": "email:lumiere.example:C019",
+    "persona": "champion",
+    "personalisation": "account_signal",
+    "sentences": [
+      {
+        "cites": [],
+        "kind": "greeting",
+        "text": "Hi Sophie,"
+      },
+      {
+        "cites": [
+          "E2"
+        ],
+        "kind": "claim",
+        "text": "I saw Lumiere Software is hiring for a Marketing Operations Lead role."
+      },
+      {
+        "cites": [
+          "C1"
+        ],
+        "kind": "claim",
+        "text": "Lumen Pipeline flags duplicate and stale CRM records before they reach routing."
+      },
+      {
+        "cites": [],
+        "kind": "cta",
+        "text": "We are running a 30-minute working session on this next month. Want an invite? https://lumenpipeline.example/webinar"
+      },
+      {
+        "cites": [],
+        "kind": "signoff",
+        "text": "Alex, Lumen Pipeline"
+      }
+    ],
+    "source": "template",
+    "stage": "aware",
+    "subject": "Lumiere Software: routing data quality",
+    "tier": "TIER_1",
+    "validation": {
+      "errors": [],
+      "model_errors": [],
+      "warnings": []
+    }
+  },
+  {
+    "account_domain": "brightwave.example",
+    "asset": "ad",
+    "contact_id": "",
+    "draft_id": "ad:brightwave.example",
+    "headline": "For the Brightwave Analytics ops team: cleaner routing data",
+    "persona": "account",
+    "personalisation": "account_name",
+    "sentences": [
+      {
+        "cites": [],
+        "kind": "headline",
+        "text": "For the Brightwave Analytics ops team: cleaner routing data"
+      },
+      {
+        "cites": [
+          "C2"
+        ],
+        "kind": "claim",
+        "text": "Lumen Pipeline shows which signal moved each account into a sales queue."
+      }
+    ],
+    "source": "template",
+    "stage": "",
+    "tier": "TIER_1",
+    "validation": {
+      "errors": [],
+      "model_errors": [],
+      "warnings": []
+    }
+  },
+  {
+    "account_domain": "brightwave.example",
+    "asset": "landing",
+    "contact_id": "",
+    "draft_id": "landing:brightwave.example",
+    "headline": "Pipeline hygiene for Brightwave Analytics",
+    "persona": "account",
+    "personalisation": "account_name",
+    "sentences": [
+      {
+        "cites": [],
+        "kind": "headline",
+        "text": "Pipeline hygiene for Brightwave Analytics"
+      },
+      {
+        "cites": [
+          "C2"
+        ],
+        "kind": "claim",
+        "text": "Lumen Pipeline shows which signal moved each account into a sales queue."
+      }
+    ],
+    "source": "template",
+    "stage": "aware",
+    "tier": "TIER_1",
+    "validation": {
+      "errors": [],
+      "model_errors": [],
+      "warnings": []
+    }
+  },
+  {
+    "account_domain": "lumiere.example",
+    "asset": "ad",
+    "contact_id": "",
+    "draft_id": "ad:lumiere.example",
+    "headline": "For the Lumiere Software ops team: cleaner routing data",
+    "persona": "account",
+    "personalisation": "account_name",
+    "sentences": [
+      {
+        "cites": [],
+        "kind": "headline",
+        "text": "For the Lumiere Software ops team: cleaner routing data"
+      },
+      {
+        "cites": [
+          "C2"
+        ],
+        "kind": "claim",
+        "text": "Lumen Pipeline shows which signal moved each account into a sales queue."
+      }
+    ],
+    "source": "template",
+    "stage": "",
+    "tier": "TIER_1",
+    "validation": {
+      "errors": [],
+      "model_errors": [],
+      "warnings": []
+    }
+  },
+  {
+    "account_domain": "lumiere.example",
+    "asset": "landing",
+    "contact_id": "",
+    "draft_id": "landing:lumiere.example",
+    "headline": "Pipeline hygiene for Lumiere Software",
+    "persona": "account",
+    "personalisation": "account_name",
+    "sentences": [
+      {
+        "cites": [],
+        "kind": "headline",
+        "text": "Pipeline hygiene for Lumiere Software"
+      },
+      {
+        "cites": [
+          "C2"
+        ],
+        "kind": "claim",
+        "text": "Lumen Pipeline shows which signal moved each account into a sales queue."
+      }
+    ],
+    "source": "template",
+    "stage": "aware",
+    "tier": "TIER_1",
+    "validation": {
+      "errors": [],
+      "model_errors": [],
+      "warnings": []
+    }
+  },
+  {
+    "account_domain": "saltmarsh.example",
+    "asset": "ad",
+    "contact_id": "",
+    "draft_id": "ad:saltmarsh.example",
+    "headline": "For the Saltmarsh Cloud ops team: cleaner routing data",
+    "persona": "account",
+    "personalisation": "account_name",
+    "sentences": [
+      {
+        "cites": [],
+        "kind": "headline",
+        "text": "For the Saltmarsh Cloud ops team: cleaner routing data"
+      },
+      {
+        "cites": [
+          "C2"
+        ],
+        "kind": "claim",
+        "text": "Lumen Pipeline shows which signal moved each account into a sales queue."
+      }
+    ],
+    "source": "template",
+    "stage": "",
+    "tier": "TIER_1",
+    "validation": {
+      "errors": [],
+      "model_errors": [],
+      "warnings": []
+    }
+  },
+  {
+    "account_domain": "saltmarsh.example",
+    "asset": "landing",
+    "contact_id": "",
+    "draft_id": "landing:saltmarsh.example",
+    "headline": "Pipeline hygiene for Saltmarsh Cloud",
+    "persona": "account",
+    "personalisation": "account_name",
+    "sentences": [
+      {
+        "cites": [],
+        "kind": "headline",
+        "text": "Pipeline hygiene for Saltmarsh Cloud"
+      },
+      {
+        "cites": [
+          "C2"
+        ],
+        "kind": "claim",
+        "text": "Lumen Pipeline shows which signal moved each account into a sales queue."
+      }
+    ],
+    "source": "template",
+    "stage": "engaged",
+    "tier": "TIER_1",
+    "validation": {
+      "errors": [],
+      "model_errors": [],
+      "warnings": []
+    }
+  },
+  {
+    "account_domain": "",
+    "asset": "ad",
+    "cluster_domains": [
+      "corvid.example"
+    ],
+    "contact_id": "",
+    "draft_id": "ad:cluster:fintech",
+    "headline": "For the Fintech ops team: cleaner routing data",
+    "persona": "account",
+    "personalisation": "industry_cluster",
+    "sentences": [
+      {
+        "cites": [],
+        "kind": "headline",
+        "text": "For the Fintech ops team: cleaner routing data"
+      },
+      {
+        "cites": [
+          "C1"
+        ],
+        "kind": "claim",
+        "text": "Lumen Pipeline flags duplicate and stale CRM records before they reach routing."
+      }
+    ],
+    "source": "template",
+    "stage": "",
+    "tier": "TIER_2",
+    "validation": {
+      "errors": [],
+      "model_errors": [],
+      "warnings": []
+    }
+  },
+  {
+    "account_domain": "",
+    "asset": "ad",
+    "cluster_domains": [
+      "northpeak.example"
+    ],
+    "contact_id": "",
+    "draft_id": "ad:cluster:saas",
+    "headline": "For the SaaS ops team: cleaner routing data",
+    "persona": "account",
+    "personalisation": "industry_cluster",
+    "sentences": [
+      {
+        "cites": [],
+        "kind": "headline",
+        "text": "For the SaaS ops team: cleaner routing data"
+      },
+      {
+        "cites": [
+          "C1"
+        ],
+        "kind": "claim",
+        "text": "Lumen Pipeline flags duplicate and stale CRM records before they reach routing."
+      }
+    ],
+    "source": "template",
+    "stage": "",
+    "tier": "TIER_2",
+    "validation": {
+      "errors": [],
+      "model_errors": [],
+      "warnings": []
+    }
+  }
+]

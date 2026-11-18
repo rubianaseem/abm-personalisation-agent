@@ -1,0 +1,17 @@
+# SYNTHETIC DATA. Fictional companies on .example domains. Not real accounts.
+account_id,company_name,domain,industry,employees,country,relationship,open_deal_stage,journey_stage,target_list,parent_domain
+A01,Brightwave Analytics,brightwave.example,Software,850,GB,prospect,,aware,Y,
+A02,Brightwave Analytics Ltd,WWW.Brightwave.example,,,GB,,,aware,,
+A03,Northpeak Systems,https://northpeak.example/about,SaaS,"1,200",NL,prospect,,engaged,yes,
+A04,Corvid Labs,corvid.example,Fintech,3k,IE,prospect,,unaware,Y,
+A05,Halcyon Retail,halcyon.example,Retail,,GB,prospect,,,N,
+A06,Ferrous CRM,ferrous.example,Software,300,GB,competitor,,aware,Y,
+A07,Meridian Health Tech,meridianhealth.example,Software,2000,GB,customer,,engaged,Y,
+A08,Meridian Labs,meridianlabs.example,Software,180,GB,prospect,,aware,Y,meridianhealth.example
+A09,Quillstone Payments,quillstone.example,Fintech,650,GB,prospect,Proposal sent,engaged,Y,
+A10,Tessellate Group,,Software,900,GB,prospect,,aware,Y,
+A11,Orbitline Partners,orbitline.example,Professional Services,120,US,partner,,aware,N,
+A12,Kestrel Logistics,kestrel.example,Logistics,40,DE,prospect,,unaware,N,
+A13,Lumiere Software,lumiere.example,Software,1500,GB,prospect,,aware,Y,
+A14,Saltmarsh Cloud,saltmarsh.example,SaaS,500,DE,prospect,Closed Lost,engaged,Y,
+A15,Pinecrest Data,pinecrest.example,,220,GB,prospect,,unawre,N,

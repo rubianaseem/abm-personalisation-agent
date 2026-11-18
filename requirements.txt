@@ -1,0 +1,2 @@
+# Standard library only. The agent, demo, evals and tests run on Python 3.10+ with nothing installed.
+# For optional Claude drafting, install requirements-claude.txt and set ANTHROPIC_API_KEY.

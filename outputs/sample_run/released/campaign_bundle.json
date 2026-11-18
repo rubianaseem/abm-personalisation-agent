@@ -1,0 +1,9 @@
+{
+  "components": {
+    "campaign_plan.json": "465fde466b0975d19f1275a74a7b1d6bf8f801b2af1534ec4eb0ca71c64ff8b6",
+    "drafts.json": "ba3c38c9638f35e21937700ef98f25c184d7a898b79f98a477e6eb909cdaaa70",
+    "evidence_packs.json": "d032147be5a0a57d4ffbe8986a9bd16d1089ad656a333b9a02a4feeef57977ae",
+    "review_queue.csv": "ca8310664f5edce9184da88f51bb59f197acdff4740ef44355d9a84b6a74e5a9"
+  },
+  "run_id": "run_bf0d8c9be24c"
+}

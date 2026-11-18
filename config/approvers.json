@@ -1,0 +1,8 @@
+{
+  "_note": "Synthetic approvers. Approval needs a named person listed here plus the full SHA-256 of the bundle they reviewed.",
+  "approvers": {
+    "maya.campaigns": {"name": "Maya Ortiz (ABM lead, synthetic)", "artifacts": ["campaign_bundle.json"]},
+    "sam.revops": {"name": "Sam Patel (RevOps, synthetic)", "artifacts": ["campaign_bundle.json"]}
+  },
+  "blocked_identities": ["abm-agent", "agent", "claude", "assistant", "system", "bot", "automation", "n8n", "zapier"]
+}

@@ -1,0 +1,27 @@
+{
+  "_note": "Synthetic brand guide for the fictional vendor Lumen Pipeline. Replace with your own approved claims and banned phrases.",
+  "brand_version": "lumen-brand-v1",
+  "product_name": "Lumen Pipeline",
+  "approved_claims": {
+    "C1": "Lumen Pipeline flags duplicate and stale CRM records before they reach routing.",
+    "C2": "Lumen Pipeline shows which signal moved each account into a sales queue.",
+    "C3": "Lumen Pipeline keeps a review step in front of every list change.",
+    "C4": "Lumen Pipeline connects to HubSpot and Salesforce through their standard APIs."
+  },
+  "banned_phrases": ["guarantee", "guaranteed", "#1", "number one", "best-in-class", "world-class", "100%", "risk-free",
+                     "revolutionary", "game-changing", "industry-leading", "never fails", "zero errors", "roi of", "double your"],
+  "allowed_urls": ["https://lumenpipeline.example/guide", "https://lumenpipeline.example/webinar", "https://lumenpipeline.example/demo"],
+  "limits": {
+    "email_subject_chars": 60,
+    "email_body_words": 110,
+    "ad_headline_chars": 70,
+    "ad_intro_chars": 150,
+    "landing_headline_chars": 70,
+    "landing_subhead_words": 30
+  },
+  "common_capitalised_words": ["I", "Hi", "Hello", "Thanks", "Best", "If", "The", "We", "You", "Your", "Would", "Happy", "Congratulations",
+                               "HubSpot", "Salesforce", "CRM", "RevOps", "Lumen", "Pipeline", "Marketing", "Operations", "Sales",
+                               "Revenue", "Ops", "A", "An", "It", "This", "That", "Our", "Worth", "Could", "Glad", "Saw", "Noticed",
+                               "When", "Teams", "Most", "One", "Many", "See", "Get", "Read", "Join", "Book", "Free", "Guide", "Webinar",
+                               "Data", "Quality", "Playbook", "Q1", "Q2", "Q3", "Q4", "UK", "EU", "AI", "Head", "VP", "Director", "Manager", "Engineer", "Analyst"]
+}

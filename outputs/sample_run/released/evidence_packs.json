@@ -1,0 +1,316 @@
+{
+  "brightwave.example": {
+    "domain": "brightwave.example",
+    "excluded": [],
+    "items": [
+      {
+        "age_days": 15,
+        "id": "E1",
+        "observed_at": "2026-11-03T00:00:00Z",
+        "signal_id": "S04",
+        "signal_type": "job_post",
+        "source_field": "jobs_feed.title",
+        "source_url": "https://jobs.example/brightwave/1",
+        "template_hook": true,
+        "text": "",
+        "value": "Revenue Operations Manager"
+      },
+      {
+        "age_days": 29,
+        "id": "E2",
+        "observed_at": "2026-10-20T00:00:00Z",
+        "signal_id": "S03",
+        "signal_type": "research_note",
+        "source_field": "research.notes",
+        "source_url": "",
+        "template_hook": false,
+        "text": "Team moved from spreadsheets to HubSpot this year; RevOps lead mentioned routing delays on a podcast.",
+        "value": ""
+      },
+      {
+        "age_days": 47,
+        "id": "E3",
+        "observed_at": "2026-10-02T00:00:00Z",
+        "signal_id": "S01",
+        "signal_type": "funding",
+        "source_field": "crm.company.latest_funding_round",
+        "source_url": "https://news.example/brightwave-series-b",
+        "template_hook": true,
+        "text": "",
+        "value": "Series B (GBP 30M)"
+      }
+    ],
+    "quarantined": 0
+  },
+  "corvid.example": {
+    "domain": "corvid.example",
+    "excluded": [
+      {
+        "reason": "STALE",
+        "signal_id": "S08",
+        "signal_type": "funding"
+      }
+    ],
+    "items": [
+      {
+        "age_days": 13,
+        "id": "E1",
+        "observed_at": "2026-11-05T00:00:00Z",
+        "signal_id": "S09",
+        "signal_type": "job_post",
+        "source_field": "jobs_feed.title",
+        "source_url": "https://jobs.example/corvid/7",
+        "template_hook": true,
+        "text": "",
+        "value": "Sales Operations Analyst"
+      }
+    ],
+    "quarantined": 0
+  },
+  "ferrous.example": {
+    "domain": "ferrous.example",
+    "excluded": [],
+    "items": [
+      {
+        "age_days": 17,
+        "id": "E1",
+        "observed_at": "2026-11-01T00:00:00Z",
+        "signal_id": "S11",
+        "signal_type": "job_post",
+        "source_field": "jobs_feed.title",
+        "source_url": "",
+        "template_hook": true,
+        "text": "",
+        "value": "Marketing Operations Manager"
+      }
+    ],
+    "quarantined": 0
+  },
+  "halcyon.example": {
+    "domain": "halcyon.example",
+    "excluded": [],
+    "items": [
+      {
+        "age_days": 3,
+        "id": "E1",
+        "observed_at": "2026-11-15T00:00:00Z",
+        "signal_id": "S10",
+        "signal_type": "website_visit",
+        "source_field": "web_analytics.page",
+        "source_url": "",
+        "template_hook": false,
+        "text": "",
+        "value": "Pricing page (3 visits)"
+      }
+    ],
+    "quarantined": 0
+  },
+  "kestrel.example": {
+    "domain": "kestrel.example",
+    "excluded": [],
+    "items": [
+      {
+        "age_days": 19,
+        "id": "E1",
+        "observed_at": "2026-10-30T00:00:00Z",
+        "signal_id": "S23",
+        "signal_type": "news",
+        "source_field": "news_feed.headline",
+        "source_url": "",
+        "template_hook": true,
+        "text": "",
+        "value": "won a logistics award"
+      }
+    ],
+    "quarantined": 0
+  },
+  "lumiere.example": {
+    "domain": "lumiere.example",
+    "excluded": [
+      {
+        "reason": "QUARANTINED_INJECTION",
+        "signal_id": "S16",
+        "signal_type": "research_note"
+      }
+    ],
+    "items": [
+      {
+        "age_days": 6,
+        "id": "E1",
+        "observed_at": "2026-11-12T00:00:00Z",
+        "signal_id": "S15",
+        "signal_type": "intent_surge",
+        "source_field": "intent.topic",
+        "source_url": "",
+        "template_hook": false,
+        "text": "",
+        "value": "Lead routing"
+      },
+      {
+        "age_days": 21,
+        "id": "E2",
+        "observed_at": "2026-10-28T00:00:00Z",
+        "signal_id": "S14",
+        "signal_type": "job_post",
+        "source_field": "jobs_feed.title",
+        "source_url": "https://jobs.example/lumiere/3",
+        "template_hook": true,
+        "text": "",
+        "value": "Marketing Operations Lead"
+      },
+      {
+        "age_days": 29,
+        "id": "E3",
+        "observed_at": "2026-10-20T00:00:00Z",
+        "signal_id": "S13",
+        "signal_type": "news",
+        "source_field": "news_feed.headline",
+        "source_url": "https://news.example/lumiere-manchester",
+        "template_hook": true,
+        "text": "",
+        "value": "opened a Manchester office"
+      }
+    ],
+    "quarantined": 1
+  },
+  "meridianhealth.example": {
+    "domain": "meridianhealth.example",
+    "excluded": [],
+    "items": [
+      {
+        "age_days": 6,
+        "id": "E1",
+        "observed_at": "2026-11-12T00:00:00Z",
+        "signal_id": "S12",
+        "signal_type": "intent_surge",
+        "source_field": "intent.topic",
+        "source_url": "",
+        "template_hook": false,
+        "text": "",
+        "value": "Lead routing"
+      }
+    ],
+    "quarantined": 0
+  },
+  "meridianlabs.example": {
+    "domain": "meridianlabs.example",
+    "excluded": [],
+    "items": [],
+    "quarantined": 0
+  },
+  "nodomain:A10": {
+    "domain": "",
+    "excluded": [],
+    "items": [],
+    "quarantined": 0
+  },
+  "northpeak.example": {
+    "domain": "northpeak.example",
+    "excluded": [
+      {
+        "reason": "QUARANTINED_INJECTION",
+        "signal_id": "S07",
+        "signal_type": "website_snippet"
+      }
+    ],
+    "items": [
+      {
+        "age_days": 8,
+        "id": "E1",
+        "observed_at": "2026-11-10T00:00:00Z",
+        "signal_id": "S06",
+        "signal_type": "intent_surge",
+        "source_field": "intent.topic",
+        "source_url": "",
+        "template_hook": false,
+        "text": "",
+        "value": "CRM data quality"
+      },
+      {
+        "age_days": 59,
+        "id": "E2",
+        "observed_at": "2026-09-20T00:00:00Z",
+        "signal_id": "S05",
+        "signal_type": "tech_change",
+        "source_field": "technographics.crm",
+        "source_url": "https://tech.example/northpeak",
+        "template_hook": true,
+        "text": "",
+        "value": "HubSpot Sales Hub"
+      }
+    ],
+    "quarantined": 1
+  },
+  "orbitline.example": {
+    "domain": "orbitline.example",
+    "excluded": [],
+    "items": [],
+    "quarantined": 0
+  },
+  "pinecrest.example": {
+    "domain": "pinecrest.example",
+    "excluded": [
+      {
+        "reason": "UNDATED",
+        "signal_id": "S20",
+        "signal_type": "job_post"
+      },
+      {
+        "reason": "FUTURE_DATED",
+        "signal_id": "S21",
+        "signal_type": "funding"
+      }
+    ],
+    "items": [],
+    "quarantined": 0
+  },
+  "quillstone.example": {
+    "domain": "quillstone.example",
+    "excluded": [],
+    "items": [],
+    "quarantined": 0
+  },
+  "saltmarsh.example": {
+    "domain": "saltmarsh.example",
+    "excluded": [],
+    "items": [
+      {
+        "age_days": 4,
+        "id": "E1",
+        "observed_at": "2026-11-14T00:00:00Z",
+        "signal_id": "S19",
+        "signal_type": "intent_surge",
+        "source_field": "intent.topic",
+        "source_url": "",
+        "template_hook": false,
+        "text": "",
+        "value": "Revenue operations tooling"
+      },
+      {
+        "age_days": 16,
+        "id": "E2",
+        "observed_at": "2026-11-02T00:00:00Z",
+        "signal_id": "S17",
+        "signal_type": "job_post",
+        "source_field": "jobs_feed.title",
+        "source_url": "https://jobs.example/saltmarsh/2",
+        "template_hook": true,
+        "text": "",
+        "value": "CRM Manager"
+      },
+      {
+        "age_days": 109,
+        "id": "E3",
+        "observed_at": "2026-08-01T00:00:00Z",
+        "signal_id": "S18",
+        "signal_type": "funding",
+        "source_field": "crm.company.latest_funding_round",
+        "source_url": "https://news.example/saltmarsh-c",
+        "template_hook": true,
+        "text": "",
+        "value": "Series C (USD 45M)"
+      }
+    ],
+    "quarantined": 0
+  }
+}

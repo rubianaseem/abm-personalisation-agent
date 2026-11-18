@@ -1,0 +1,13 @@
+{
+  "done": {
+    "halcyon.example": {
+      "employees": 400,
+      "industry": "Retail"
+    },
+    "pinecrest.example": {
+      "employees": 220,
+      "industry": "Information Technology"
+    }
+  },
+  "failed": {}
+}

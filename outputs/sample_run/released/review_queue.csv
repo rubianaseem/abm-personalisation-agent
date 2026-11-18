@@ -1,0 +1,22 @@
+item_type,ref,decision,reason,suggested_action
+account,ferrous.example,EXCLUDE_COMPETITOR,RELATIONSHIP_COMPETITOR,Confirm competitor flag; keep out of all ABM lists
+signal,S16,QUARANTINED_INJECTION,research_note,Quarantined text is not shown here; open the source row and clean it
+account,meridianhealth.example,EXCLUDE_CUSTOMER,RELATIONSHIP_CUSTOMER,"Route to account manager or expansion play, not new-logo ABM"
+account,meridianlabs.example,EXCLUDE_CUSTOMER,CUSTOMER_FAMILY:meridianhealth.example,"Route to account manager or expansion play, not new-logo ABM"
+account,A10,REVIEW_DATA,MISSING_DOMAIN_OR_NAME,Fix domain or company name in the CRM and re-export
+signal,S07,QUARANTINED_INJECTION,website_snippet,Quarantined text is not shown here; open the source row and clean it
+account,orbitline.example,REVIEW_PARTNER,RELATIONSHIP_PARTNER,Check with partnerships before targeting
+signal,S20,UNDATED,job_post,Add a reliable observed_at date or drop the signal
+signal,S21,FUTURE_DATED,funding,Add a reliable observed_at date or drop the signal
+account,quillstone.example,HOLD_OPEN_DEAL,OPEN_DEAL,Ask the deal owner whether marketing air cover helps
+contact,C011,REVIEW_PERSONA,TITLE_NOT_MAPPED,Fix in CRM or decide manually; no draft was written
+contact,C024,REVIEW_DATA,INVALID_OR_MISSING_EMAIL,Fix in CRM or decide manually; no draft was written
+contact,C021,REVIEW_DOMAIN_MISMATCH,EMAIL_DOMAIN_NOT_lumiere.example,Fix in CRM or decide manually; no draft was written
+contact,C012,REVIEW_PERSONAL_EMAIL,PERSONAL_EMAIL_DOMAIN,Fix in CRM or decide manually; no draft was written
+contact,C025,REVIEW_NO_ACCOUNT,NO_MATCHING_TARGET_ACCOUNT,Fix in CRM or decide manually; no draft was written
+contact,C009,HOLD_BASIS_UNKNOWN,LAWFUL_BASIS_MISSING_OR_UNKNOWN,Fix in CRM or decide manually; no draft was written
+contact,C006,HOLD_CAP,ACCOUNT_CAP_3,Fix in CRM or decide manually; no draft was written
+data_quality,A02,NOTE,duplicate of A01 on domain; merged,Fix at source
+data_quality,A15,NOTE,"unknown journey_stage 'unawre', treated as unaware",Fix at source
+data_quality,C003,NOTE,duplicate of C002 on email; merged with most restrictive flags,Fix at source
+data_quality,S04,NOTE,duplicate of S02; kept the newer observation,Fix at source

@@ -1,0 +1,15 @@
+{
+  "agent_version": "abm-agent-0.1.0",
+  "artifacts": {
+    "campaign_bundle.json": {
+      "approvable": true,
+      "sha256": "30dd51313ca02307134ce60489388dc2acfe3336e80137c0b0b0729aa56ec3e8"
+    }
+  },
+  "as_of": "2026-11-18T09:00:00Z",
+  "exported_at": "2026-11-18T08:30:00Z",
+  "model": null,
+  "run_id": "run_bf0d8c9be24c",
+  "stale": false,
+  "stale_reason": ""
+}

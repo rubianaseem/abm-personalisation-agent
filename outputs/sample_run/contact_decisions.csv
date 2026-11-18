@@ -1,0 +1,26 @@
+contact_id,account,persona,action,reason
+C001,brightwave.example,economic_buyer,DRAFT_EMAIL,TIER_1_BUYING_COMMITTEE
+C002,brightwave.example,champion,SUPPRESS_OPT_OUT,EMAIL_OPT_OUT_FLAG
+C004,brightwave.example,economic_buyer,DRAFT_EMAIL,TIER_1_BUYING_COMMITTEE
+C005,brightwave.example,technical,DRAFT_EMAIL,TIER_1_BUYING_COMMITTEE
+C006,brightwave.example,user,HOLD_CAP,ACCOUNT_CAP_3
+C007,northpeak.example,champion,DRAFT_EMAIL,TIER_2_BUYING_COMMITTEE
+C008,northpeak.example,economic_buyer,DRAFT_EMAIL,TIER_2_BUYING_COMMITTEE
+C009,northpeak.example,user,HOLD_BASIS_UNKNOWN,LAWFUL_BASIS_MISSING_OR_UNKNOWN
+C010,corvid.example,champion,SUPPRESS_NOTE_OPTOUT,NOTE_PHRASE:remove me
+C011,corvid.example,,REVIEW_PERSONA,TITLE_NOT_MAPPED
+C012,corvid.example,economic_buyer,REVIEW_PERSONAL_EMAIL,PERSONAL_EMAIL_DOMAIN
+C013,corvid.example,champion,DRAFT_EMAIL,TIER_2_BUYING_COMMITTEE
+C014,halcyon.example,user,ADD_TO_PROGRAM_LIST,TIER_3_PROGRAM
+C015,ferrous.example,economic_buyer,SUPPRESS_COMPETITOR,ACCOUNT_EXCLUDE_COMPETITOR
+C016,meridianhealth.example,champion,SUPPRESS_CUSTOMER,ACCOUNT_EXCLUDE_CUSTOMER
+C017,meridianlabs.example,champion,SUPPRESS_CUSTOMER,ACCOUNT_EXCLUDE_CUSTOMER
+C018,quillstone.example,economic_buyer,HOLD_OPEN_DEAL,ACCOUNT_HOLD_OPEN_DEAL
+C019,lumiere.example,champion,DRAFT_EMAIL,TIER_1_BUYING_COMMITTEE
+C020,lumiere.example,economic_buyer,SUPPRESS_BOUNCED,HARD_BOUNCE
+C021,lumiere.example,economic_buyer,REVIEW_DOMAIN_MISMATCH,EMAIL_DOMAIN_NOT_lumiere.example
+C022,saltmarsh.example,champion,DRAFT_EMAIL,TIER_1_BUYING_COMMITTEE
+C023,saltmarsh.example,economic_buyer,DRAFT_EMAIL,TIER_1_BUYING_COMMITTEE
+C024,saltmarsh.example,champion,REVIEW_DATA,INVALID_OR_MISSING_EMAIL
+C025,,champion,REVIEW_NO_ACCOUNT,NO_MATCHING_TARGET_ACCOUNT
+C026,pinecrest.example,champion,ADD_TO_PROGRAM_LIST,TIER_3_PROGRAM

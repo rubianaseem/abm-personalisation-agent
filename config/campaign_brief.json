@@ -1,0 +1,11 @@
+{
+  "_note": "SYNTHETIC campaign brief for the fictional vendor Lumen Pipeline.",
+  "campaign_id": "q1-2027-pipeline-hygiene",
+  "campaign_name": "Q1 2027 Pipeline Hygiene ABM",
+  "objective": "Start conversations with ops leaders at target accounts about routing errors caused by duplicate and stale CRM data.",
+  "sender_name": "Alex",
+  "sender_company": "Lumen Pipeline",
+  "offer": "Pipeline hygiene working session",
+  "hubspot_list_prefix": "ABM Q1-27",
+  "sequence_names": {"TIER_1": "ABM Q1-27 Tier 1 owner-sent (manual steps)", "TIER_2": "ABM Q1-27 Tier 2 cluster"}
+}

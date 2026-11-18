@@ -1,0 +1,397 @@
+{
+  "accounts": [
+    {
+      "account_id": "A01",
+      "company_name": "Brightwave Analytics",
+      "decision": "TIER_1",
+      "domain": "brightwave.example",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "filled_fields": {},
+      "fit": 7,
+      "intent": 2,
+      "reasons": [
+        "FIT_ICP_INDUSTRY",
+        "FIT_SIZE_200_5000",
+        "FIT_NAMED_TARGET",
+        "FIT_TARGET_COUNTRY",
+        "INTENT_2"
+      ]
+    },
+    {
+      "account_id": "A04",
+      "company_name": "Corvid Labs",
+      "decision": "TIER_2",
+      "domain": "corvid.example",
+      "evidence_ids": [
+        "E1"
+      ],
+      "filled_fields": {},
+      "fit": 7,
+      "intent": 1,
+      "reasons": [
+        "FIT_ICP_INDUSTRY",
+        "FIT_SIZE_200_5000",
+        "FIT_NAMED_TARGET",
+        "FIT_TARGET_COUNTRY",
+        "INTENT_1"
+      ]
+    },
+    {
+      "account_id": "A06",
+      "company_name": "Ferrous CRM",
+      "decision": "EXCLUDE_COMPETITOR",
+      "domain": "ferrous.example",
+      "evidence_ids": [
+        "E1"
+      ],
+      "filled_fields": {},
+      "fit": 0,
+      "intent": 0,
+      "reasons": [
+        "RELATIONSHIP_COMPETITOR"
+      ]
+    },
+    {
+      "account_id": "A05",
+      "company_name": "Halcyon Retail",
+      "decision": "TIER_3",
+      "domain": "halcyon.example",
+      "evidence_ids": [
+        "E1"
+      ],
+      "filled_fields": {
+        "employees": "mock_research"
+      },
+      "fit": 3,
+      "intent": 1,
+      "reasons": [
+        "FIT_SIZE_200_5000",
+        "FIT_TARGET_COUNTRY",
+        "INTENT_1"
+      ]
+    },
+    {
+      "account_id": "A12",
+      "company_name": "Kestrel Logistics",
+      "decision": "NOT_TARGETED",
+      "domain": "kestrel.example",
+      "evidence_ids": [
+        "E1"
+      ],
+      "filled_fields": {},
+      "fit": 1,
+      "intent": 1,
+      "reasons": [
+        "FIT_TARGET_COUNTRY",
+        "INTENT_1"
+      ]
+    },
+    {
+      "account_id": "A13",
+      "company_name": "Lumiere Software",
+      "decision": "TIER_1",
+      "domain": "lumiere.example",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "filled_fields": {},
+      "fit": 7,
+      "intent": 3,
+      "reasons": [
+        "FIT_ICP_INDUSTRY",
+        "FIT_SIZE_200_5000",
+        "FIT_NAMED_TARGET",
+        "FIT_TARGET_COUNTRY",
+        "INTENT_3"
+      ]
+    },
+    {
+      "account_id": "A07",
+      "company_name": "Meridian Health Tech",
+      "decision": "EXCLUDE_CUSTOMER",
+      "domain": "meridianhealth.example",
+      "evidence_ids": [
+        "E1"
+      ],
+      "filled_fields": {},
+      "fit": 0,
+      "intent": 0,
+      "reasons": [
+        "RELATIONSHIP_CUSTOMER"
+      ]
+    },
+    {
+      "account_id": "A08",
+      "company_name": "Meridian Labs",
+      "decision": "EXCLUDE_CUSTOMER",
+      "domain": "meridianlabs.example",
+      "evidence_ids": [],
+      "filled_fields": {},
+      "fit": 0,
+      "intent": 0,
+      "reasons": [
+        "CUSTOMER_FAMILY:meridianhealth.example"
+      ]
+    },
+    {
+      "account_id": "A10",
+      "company_name": "Tessellate Group",
+      "decision": "REVIEW_DATA",
+      "domain": "",
+      "evidence_ids": [],
+      "filled_fields": {},
+      "fit": 0,
+      "intent": 0,
+      "reasons": [
+        "MISSING_DOMAIN_OR_NAME"
+      ]
+    },
+    {
+      "account_id": "A03",
+      "company_name": "Northpeak Systems",
+      "decision": "TIER_2",
+      "domain": "northpeak.example",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "filled_fields": {},
+      "fit": 7,
+      "intent": 2,
+      "reasons": [
+        "FIT_ICP_INDUSTRY",
+        "FIT_SIZE_200_5000",
+        "FIT_NAMED_TARGET",
+        "FIT_TARGET_COUNTRY",
+        "INTENT_2",
+        "TIER1_CAPACITY_DEMOTED"
+      ]
+    },
+    {
+      "account_id": "A11",
+      "company_name": "Orbitline Partners",
+      "decision": "REVIEW_PARTNER",
+      "domain": "orbitline.example",
+      "evidence_ids": [],
+      "filled_fields": {},
+      "fit": 0,
+      "intent": 0,
+      "reasons": [
+        "RELATIONSHIP_PARTNER"
+      ]
+    },
+    {
+      "account_id": "A15",
+      "company_name": "Pinecrest Data",
+      "decision": "TIER_3",
+      "domain": "pinecrest.example",
+      "evidence_ids": [],
+      "filled_fields": {
+        "industry": "mock_research"
+      },
+      "fit": 5,
+      "intent": 0,
+      "reasons": [
+        "FIT_ICP_INDUSTRY",
+        "FIT_SIZE_200_5000",
+        "FIT_TARGET_COUNTRY",
+        "INTENT_0"
+      ]
+    },
+    {
+      "account_id": "A09",
+      "company_name": "Quillstone Payments",
+      "decision": "HOLD_OPEN_DEAL",
+      "domain": "quillstone.example",
+      "evidence_ids": [],
+      "filled_fields": {},
+      "fit": 0,
+      "intent": 0,
+      "reasons": [
+        "OPEN_DEAL"
+      ]
+    },
+    {
+      "account_id": "A14",
+      "company_name": "Saltmarsh Cloud",
+      "decision": "TIER_1",
+      "domain": "saltmarsh.example",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "filled_fields": {},
+      "fit": 7,
+      "intent": 3,
+      "reasons": [
+        "FIT_ICP_INDUSTRY",
+        "FIT_SIZE_200_5000",
+        "FIT_NAMED_TARGET",
+        "FIT_TARGET_COUNTRY",
+        "INTENT_3"
+      ]
+    }
+  ],
+  "campaign_id": "q1-2027-pipeline-hygiene",
+  "draft_hashes": {
+    "ad:brightwave.example": "0944f16fda2033f14fbe0f394e0c147e340e9fc7f0b41ec1b4911f34d5593f62",
+    "ad:cluster:fintech": "7916258e477e47989e3d47fcde6668d3d3b14abd9215b144b30da86405dfee21",
+    "ad:cluster:saas": "bf081478c27a33e06809420c0bc00ce7bc371661648a6304ff0f921fb760a77f",
+    "ad:lumiere.example": "163609fda0883d0798fe964b5d3e96802a9240e50ffc313a8f2b09ab17c255d6",
+    "ad:saltmarsh.example": "970e9fab6c2189a71150e9d4bfc8f79ad02712e5d3014428c983de0493c2be15",
+    "email:brightwave.example:C001": "3fcf345a849399a41edd8f18cd894b3a825ba790b57742dbfbe2c7e4bca9bacb",
+    "email:brightwave.example:C004": "a4bec8da25d00b9cff5eb93c1f33bf7e208a86fd3fe8bdfd10711abf874a73fd",
+    "email:brightwave.example:C005": "e32378b47c516abab402693dd95cd386db7dd7c2436bb860c6c0220749906063",
+    "email:corvid.example:C013": "e02834c2c1a010319a4581ff248374706f20fd66d4f640f113fe1fbac31ee5e8",
+    "email:lumiere.example:C019": "68c7ffc6b5ca85fcec88980d8fd43cda735d24a2ecdebac3b361479dd1af9eaf",
+    "email:northpeak.example:C007": "b90fa509f6963ce128ec3de3885d0c9ceccba30a31738acfacc5a3337ceef479",
+    "email:northpeak.example:C008": "0d4cbd2fde9746b5b62990b30afe2c614c5807d2f4d827da510b4ba8a7536b9c",
+    "email:saltmarsh.example:C022": "d9e53f2a5e84e0bf5e1bc1b2b8552fe7f2199f31263272b1a13193d959af07c4",
+    "email:saltmarsh.example:C023": "955e8a30629b48a282b5551ae676ba021d358cd19712674a86cf25dc90a71bfb",
+    "landing:brightwave.example": "ab835ee6f2506d4ded8f26401c5cc4a447dbc9a0b067cebbbca93c8a20a0c1a8",
+    "landing:lumiere.example": "3510615674e51aad788aba66aacbce48602807f01cada3aac253682a2e5abdd2",
+    "landing:saltmarsh.example": "4c11b979e96809f15693053554aede3e9d602d78279ced174e0d8d2a0a0677c6"
+  },
+  "policy_version": "abm-policy-v1",
+  "proposed_ad_company_lists": {
+    "exclude_domains": [
+      "ferrous.example",
+      "meridianhealth.example",
+      "meridianlabs.example",
+      "quillstone.example"
+    ],
+    "tier1_domains": [
+      "brightwave.example",
+      "lumiere.example",
+      "saltmarsh.example"
+    ],
+    "tier2_domains": [
+      "corvid.example",
+      "northpeak.example"
+    ],
+    "tier3_domains": [
+      "halcyon.example",
+      "pinecrest.example"
+    ]
+  },
+  "proposed_hubspot_static_lists": [
+    {
+      "contact_ids": [
+        "C004",
+        "C005",
+        "C022",
+        "C023",
+        "C001",
+        "C019"
+      ],
+      "name": "ABM Q1-27 Tier 1 (1:1)"
+    },
+    {
+      "contact_ids": [
+        "C013",
+        "C008",
+        "C007"
+      ],
+      "name": "ABM Q1-27 Tier 2 (1:few)"
+    },
+    {
+      "contact_ids": [
+        "C014",
+        "C026"
+      ],
+      "name": "ABM Q1-27 Tier 3 (1:many) program"
+    }
+  ],
+  "proposed_landing_pages": [
+    "landing:brightwave.example",
+    "landing:lumiere.example",
+    "landing:saltmarsh.example"
+  ],
+  "proposed_sequence_assignments": [
+    {
+      "contact_id": "C004",
+      "draft_id": "email:brightwave.example:C004",
+      "draft_sha256": "a4bec8da25d00b9cff5eb93c1f33bf7e208a86fd3fe8bdfd10711abf874a73fd",
+      "enrolled_by": "account owner, manually",
+      "sequence": "ABM Q1-27 Tier 1 owner-sent (manual steps)"
+    },
+    {
+      "contact_id": "C013",
+      "draft_id": "email:corvid.example:C013",
+      "draft_sha256": "e02834c2c1a010319a4581ff248374706f20fd66d4f640f113fe1fbac31ee5e8",
+      "enrolled_by": "account owner, manually",
+      "sequence": "ABM Q1-27 Tier 2 cluster"
+    },
+    {
+      "contact_id": "C008",
+      "draft_id": "email:northpeak.example:C008",
+      "draft_sha256": "0d4cbd2fde9746b5b62990b30afe2c614c5807d2f4d827da510b4ba8a7536b9c",
+      "enrolled_by": "account owner, manually",
+      "sequence": "ABM Q1-27 Tier 2 cluster"
+    },
+    {
+      "contact_id": "C005",
+      "draft_id": "email:brightwave.example:C005",
+      "draft_sha256": "e32378b47c516abab402693dd95cd386db7dd7c2436bb860c6c0220749906063",
+      "enrolled_by": "account owner, manually",
+      "sequence": "ABM Q1-27 Tier 1 owner-sent (manual steps)"
+    },
+    {
+      "contact_id": "C022",
+      "draft_id": "email:saltmarsh.example:C022",
+      "draft_sha256": "d9e53f2a5e84e0bf5e1bc1b2b8552fe7f2199f31263272b1a13193d959af07c4",
+      "enrolled_by": "account owner, manually",
+      "sequence": "ABM Q1-27 Tier 1 owner-sent (manual steps)"
+    },
+    {
+      "contact_id": "C007",
+      "draft_id": "email:northpeak.example:C007",
+      "draft_sha256": "b90fa509f6963ce128ec3de3885d0c9ceccba30a31738acfacc5a3337ceef479",
+      "enrolled_by": "account owner, manually",
+      "sequence": "ABM Q1-27 Tier 2 cluster"
+    },
+    {
+      "contact_id": "C023",
+      "draft_id": "email:saltmarsh.example:C023",
+      "draft_sha256": "955e8a30629b48a282b5551ae676ba021d358cd19712674a86cf25dc90a71bfb",
+      "enrolled_by": "account owner, manually",
+      "sequence": "ABM Q1-27 Tier 1 owner-sent (manual steps)"
+    },
+    {
+      "contact_id": "C001",
+      "draft_id": "email:brightwave.example:C001",
+      "draft_sha256": "3fcf345a849399a41edd8f18cd894b3a825ba790b57742dbfbe2c7e4bca9bacb",
+      "enrolled_by": "account owner, manually",
+      "sequence": "ABM Q1-27 Tier 1 owner-sent (manual steps)"
+    },
+    {
+      "contact_id": "C019",
+      "draft_id": "email:lumiere.example:C019",
+      "draft_sha256": "68c7ffc6b5ca85fcec88980d8fd43cda735d24a2ecdebac3b361479dd1af9eaf",
+      "enrolled_by": "account owner, manually",
+      "sequence": "ABM Q1-27 Tier 1 owner-sent (manual steps)"
+    }
+  ],
+  "proposed_suppression_list": {
+    "contact_ids": [
+      "C010",
+      "C015",
+      "C016",
+      "C020",
+      "C017",
+      "C002"
+    ],
+    "name": "ABM Q1-27 Suppressed - exclude from all sends"
+  },
+  "run_id": "run_bf0d8c9be24c",
+  "schema": "abm_campaign_plan.v1",
+  "status": "proposed",
+  "writes_performed": false
+}

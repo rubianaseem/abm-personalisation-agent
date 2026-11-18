@@ -1,0 +1,8 @@
+{
+  "_note": "SYNTHETIC mock firmographic lookup results for .example domains. Used by abm/research_mock.py only. No vendor is called.",
+  "companies": {
+    "halcyon.example": {"employees": 400, "industry": "Retail"},
+    "pinecrest.example": {"employees": 220, "industry": "Information Technology"},
+    "brightwave.example": {"employees": 850, "industry": "Software"}
+  }
+}

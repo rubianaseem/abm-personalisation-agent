@@ -1,0 +1,15 @@
+{
+  "artifact": "campaign_bundle.json",
+  "sha256": "30dd51313ca02307134ce60489388dc2acfe3336e80137c0b0b0729aa56ec3e8",
+  "files": [
+    "campaign_bundle.json",
+    "campaign_plan.json",
+    "drafts.json",
+    "evidence_packs.json",
+    "review_queue.csv"
+  ],
+  "approved_by": "Maya Ortiz (ABM lead, synthetic)",
+  "approved_at": "2026-11-18T09:20:00Z",
+  "released_at": "2026-11-18T09:30:00Z",
+  "next_step": "Manual: in HubSpot, create the proposed static lists from campaign_plan.json (contact ids), add the suppression list as an exclusion, paste the approved drafts into the named sequences or marketing email drafts, and upload the company domain lists to your ad platform. Owners enrol contacts themselves. The agent performs no sends and no CRM writes."
+}

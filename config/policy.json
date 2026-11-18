@@ -1,0 +1,35 @@
+{
+  "policy_version": "abm-policy-v1",
+  "_note": "Synthetic policy for a fictional vendor. Every threshold here is a starting point to tune with your own sales and marketing leads.",
+  "icp_industries": ["software", "saas", "fintech", "information technology", "professional services", "marketing technology"],
+  "target_countries": ["GB", "UK", "IE", "NL", "DE", "US"],
+  "fit_points": {
+    "icp_industry": 2,
+    "employees_200_5000": 2,
+    "employees_50_199": 1,
+    "employees_over_5000": 1,
+    "named_target_list": 2,
+    "target_country": 1
+  },
+  "intent_signal_types": ["funding", "job_post", "intent_surge", "tech_change", "news", "website_visit"],
+  "intent_points_cap": 3,
+  "tiers": {
+    "TIER_1": {"min_fit": 6, "min_intent": 2, "label": "1:1"},
+    "TIER_2": {"min_fit": 4, "min_intent": 1, "label": "1:few"},
+    "TIER_3": {"min_fit": 3, "min_intent": 0, "label": "1:many"}
+  },
+  "max_tier1_accounts": 3,
+  "signal_max_age_days": {
+    "funding": 180, "job_post": 45, "intent_surge": 21, "tech_change": 120, "news": 90,
+    "website_visit": 14, "research_note": 90, "website_snippet": 120
+  },
+  "template_hook_types": ["funding", "job_post", "tech_change", "news"],
+  "free_text_types": ["research_note", "website_snippet"],
+  "open_deal_closed_stages": ["closed won", "closed lost", "closedwon", "closedlost"],
+  "max_contacts_per_account": {"TIER_1": 3, "TIER_2": 2},
+  "personal_email_domains": ["gmail.com", "googlemail.com", "yahoo.com", "hotmail.com", "outlook.com", "icloud.com", "proton.me", "aol.com"],
+  "note_optout_phrases": ["do not contact", "don't contact", "unsubscribe", "remove me", "stop emailing", "no more emails", "opted out", "take me off"],
+  "email_lawful_bases_allowed": ["consent", "legitimate_interest"],
+  "snapshot_max_age_hours": 48,
+  "approval_ttl_hours": 24
+}

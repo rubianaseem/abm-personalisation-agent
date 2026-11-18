@@ -1,0 +1,42 @@
+1. Plan the campaign (templates only, mocked firmographic fill with one injected 429)
+# Run summary (SYNTHETIC DATA)
+
+run_id: run_bf0d8c9be24c  as_of: 2026-11-18T09:00:00Z  stale snapshot: False
+
+Accounts: EXCLUDE_COMPETITOR 1, EXCLUDE_CUSTOMER 2, HOLD_OPEN_DEAL 1, NOT_TARGETED 1, REVIEW_DATA 1, REVIEW_PARTNER 1, TIER_1 3, TIER_2 2, TIER_3 2
+Contacts: ADD_TO_PROGRAM_LIST 2, DRAFT_EMAIL 9, HOLD_BASIS_UNKNOWN 1, HOLD_CAP 1, HOLD_OPEN_DEAL 1, REVIEW_DATA 1, REVIEW_DOMAIN_MISMATCH 1, REVIEW_NO_ACCOUNT 1, REVIEW_PERSONA 1, REVIEW_PERSONAL_EMAIL 1, SUPPRESS_BOUNCED 1, SUPPRESS_COMPETITOR 1, SUPPRESS_CUSTOMER 2, SUPPRESS_NOTE_OPTOUT 1, SUPPRESS_OPT_OUT 1
+Signals excluded: FUTURE_DATED 1, QUARANTINED_INJECTION 2, STALE 1, UNDATED 1; orphan signals 1
+Drafts: 17 (9 emails, 9 with an account signal, 0 persona-only); blocked 0; model fallbacks 0
+Proposed lists: 3; sequence assignments 9; suppression list 6 contacts
+Review queue rows: 21
+Mock research: looked_up 2, from_checkpoint 0, filled_fields 2, failed 0, retries 1
+
+Nothing was sent and nothing was written to a CRM. Approve campaign_bundle.json by its SHA-256 to release the plan.
+
+2. One tier 1 draft, as the reviewer sees it
+## email:brightwave.example:C001 (TIER_1, template, account_signal)
+Subject: Brightwave Analytics: pipeline visibility
+- (greeting) Hi Priya,
+- (claim) Congratulations to the Brightwave Analytics team on the Series B (GBP 30M). [E3]
+- (claim) Lumen Pipeline shows which signal moved each account into a sales queue. [C2]
+- (cta) We are running a 30-minute working session on this next month. Want an invite? https://lumenpipeline.example/webinar
+- (signoff) Alex, Lumen Pipeline
+Validation: pass
+
+3. A compromised model on the same data (scripted: invents a customer result with a number)
+model drafts rejected and replaced by templates: 9 of 9
+example reasons: ['EVIDENCE_NOT_QUOTED', 'UNGROUNDED_NUMBER:40']
+
+4. Approval gate
+bundle sha256: 30dd51313ca02307134ce60489388dc2acfe3336e80137c0b0b0729aa56ec3e8
+refused (claude): 'claude' is an agent/service identity and can never approve
+refused (maya.campaigns): hash does not match the file on disk; review the current file and use its hash
+approved by Maya Ortiz (ABM lead, synthetic), expires 2026-11-19T09:20:00Z
+refused (draft edited after approval, on a copy): bundle component drafts.json changed or is missing; approval is void, re-run the agent
+released to outputs/sample_run/released; next step is manual in HubSpot and the ad platform
+
+5. Audit trail
+trace.jsonl: ok (64 records)
+approvals.jsonl: ok (2 records)
+
+Nothing was sent, nothing was written to a CRM, no enrichment vendor was called.

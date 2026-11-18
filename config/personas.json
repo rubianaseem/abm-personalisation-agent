@@ -1,0 +1,105 @@
+{
+  "_note": "Title-to-persona rules, checked in order. First match wins. Unknown titles go to review instead of getting a guessed persona.",
+  "rules": [
+    {
+      "persona": "economic_buyer",
+      "patterns": [
+        "\\bchief\\b",
+        "\\bcro\\b",
+        "\\bcmo\\b",
+        "\\bcoo\\b",
+        "\\bvp\\b",
+        "vice president",
+        "\\bsvp\\b",
+        "head of (revenue|sales|marketing|growth|revops|gtm)"
+      ]
+    },
+    {
+      "persona": "champion",
+      "patterns": [
+        "revops",
+        "revenue operations",
+        "marketing operations",
+        "sales operations",
+        "\\bmops\\b",
+        "gtm (engineer|operations)",
+        "crm (manager|lead|admin)"
+      ]
+    },
+    {
+      "persona": "technical",
+      "patterns": [
+        "\\bdata engineer",
+        "\\bit (manager|director)",
+        "security",
+        "\\bcto\\b",
+        "solutions architect",
+        "integration"
+      ]
+    },
+    {
+      "persona": "user",
+      "patterns": [
+        "\\bsdr\\b",
+        "\\bbdr\\b",
+        "account executive",
+        "demand gen",
+        "marketing (manager|executive|specialist)",
+        "analyst",
+        "campaign"
+      ]
+    }
+  ],
+  "priority": [
+    "champion",
+    "economic_buyer",
+    "technical",
+    "user"
+  ],
+  "value_claim": {
+    "economic_buyer": "C2",
+    "champion": "C1",
+    "technical": "C4",
+    "user": "C3"
+  },
+  "stage_cta": {
+    "unaware": {
+      "text": "Would a short guide on how other ops teams handle this be useful?",
+      "url": "https://lumenpipeline.example/guide"
+    },
+    "aware": {
+      "text": "We are running a 30-minute working session on this next month. Want an invite?",
+      "url": "https://lumenpipeline.example/webinar"
+    },
+    "engaged": {
+      "text": "Worth a 20-minute call to compare notes on your current setup?",
+      "url": "https://lumenpipeline.example/demo"
+    }
+  },
+  "hook_priority": {
+    "economic_buyer": [
+      "funding",
+      "news",
+      "job_post",
+      "tech_change"
+    ],
+    "champion": [
+      "job_post",
+      "tech_change",
+      "funding",
+      "news"
+    ],
+    "technical": [
+      "tech_change",
+      "job_post",
+      "funding",
+      "news"
+    ],
+    "user": [
+      "job_post",
+      "news",
+      "tech_change",
+      "funding"
+    ]
+  }
+}
